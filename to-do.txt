@@ -1,0 +1,21 @@
+Commands:
+  archive <url> <title> <tags>
+  title <id> <title>
+  addtags <id> <tags>
+  removetags <id> <tags>
+    all
+
+  archives
+    random image in archive with buttons to traverse images
+  archives <id>
+  archives help
+
+1. archive
+
+  Args:
+    1. link to picture (optional) 
+      look 3 messages back for first picture if none given
+      if no picture found show usage options
+    2. title (optional) 
+      default to "Untitled"
+    3. tags (optional)
