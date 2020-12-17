@@ -32,6 +32,10 @@ client.once("ready", () => {
   mongoose.connection.on("error", (err) => {
     console.error("Something went wrong with mongoose.");
   });
+
+  client.user.setActivity("over the archives", {
+    type: "WATCHING"
+  });
 });
 
 client.on("message", (message) => {
