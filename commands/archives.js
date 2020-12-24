@@ -34,7 +34,7 @@ async function execute(message, args) {
 module.exports = {
   name: "archives",
   args: false,
-  guildOnly: false,
+  guildOnly: true,
   usage: "",
   execute: execute
 };
